@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>NECTA — Honey Puzzle</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--cream:#FFF6E3;--wax:#F6E9CC;--rule:#E3CE9F;--bark:#6B4A2B;--ink:#3B2A17;--muted:#8A7355;--honey:#E09612}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--cream);color:var(--ink);font-family:Nunito,system-ui,-apple-system,sans-serif;
+  line-height:1.8;font-size:15px;-webkit-text-size-adjust:100%}
+.wrap{max-width:600px;margin:0 auto;padding:max(48px,env(safe-area-inset-top)) 20px 60px;text-align:center}
+.drop{width:96px;height:96px;margin:0 auto 20px;display:block}
+h1{font-weight:800;font-size:30px;letter-spacing:.20em;color:var(--bark);margin:0 0 6px}
+h1 span{color:var(--honey)}
+.tag{color:var(--muted);font-size:15px;margin-bottom:36px}
+.links{display:flex;flex-direction:column;gap:10px;max-width:340px;margin:0 auto}
+.links a{display:block;padding:14px 18px;background:var(--wax);border:2px solid var(--rule);
+  border-radius:12px;color:var(--bark);text-decoration:none;font-weight:600}
+.links a:hover{border-color:var(--honey);color:var(--honey)}
+footer{margin-top:44px;color:var(--muted);font-size:13px}
+footer a{color:var(--honey)}
+</style>
+
+<div class="wrap">
+  <svg class="drop" viewBox="0 0 1024 1024" aria-label="NECTA">
+    <defs>
+      <linearGradient id="d" x1="0.3" y1="0" x2="0.7" y2="1">
+        <stop offset="0" stop-color="#FFE9A8"/>
+        <stop offset="0.42" stop-color="#F5B31F"/>
+        <stop offset="1" stop-color="#D2691E"/>
+      </linearGradient>
+    </defs>
+    <g transform="translate(512 512) scale(1.5)">
+      <path d="M0 -250 C 62 -150, 172 -60, 172 46 A 172 172 0 1 1 -172 46 C -172 -60, -62 -150, 0 -250 Z"
+            fill="url(#d)" stroke="#6B4A2B" stroke-width="34" stroke-linejoin="round"/>
+      <path d="M-74 26 C -104 -22, -74 -86, -30 -112" fill="none" stroke="#fff"
+            stroke-opacity="0.72" stroke-width="30" stroke-linecap="round"/>
+    </g>
+  </svg>
+
+  <h1>NEC<span>T</span>A</h1>
+  <div class="tag">Rotate the comb, route the honey, seal every leak.</div>
+
+  <div class="links">
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="terms.html">Terms of Use</a>
+    <a href="delete.html">Data Deletion</a>
+    <a href="mailto:mustafasalimerek@gmail.com?subject=NECTA%20support">Support</a>
+  </div>
+
+  <footer>
+    <!-- Not linked to the Pages root: that URL is a 404 (GitHub serves files,
+         it does not list directories), and a "Developer Website" link that
+         404s is worse than no link. -->
+    A game by Erek Studio
+  </footer>
+</div>

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>NECTA — Privacy Policy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--cream:#FFF6E3;--wax:#F6E9CC;--rule:#E3CE9F;--bark:#6B4A2B;--ink:#3B2A17;--muted:#8A7355;--honey:#E09612}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--cream);color:var(--ink);font-family:Nunito,system-ui,-apple-system,sans-serif;
+  line-height:1.8;font-size:15px;-webkit-text-size-adjust:100%}
+.wrap{max-width:680px;margin:0 auto;padding:max(24px,env(safe-area-inset-top)) 20px 60px}
+header{display:flex;align-items:baseline;justify-content:space-between;
+  padding-bottom:14px;border-bottom:2px solid var(--rule);margin-bottom:26px}
+.mark{font-weight:800;font-size:20px;letter-spacing:.22em;color:var(--bark)}
+.mark span{color:var(--honey)}
+.langs{font-size:12px;letter-spacing:.12em;font-weight:600}
+.langs a{color:var(--muted);text-decoration:none;margin-left:10px;cursor:pointer}
+.langs a.on{color:var(--honey)}
+h1{font-size:24px;font-weight:800;color:var(--bark);margin:0 0 6px}
+.updated{color:var(--muted);font-size:12px;letter-spacing:.06em;margin-bottom:28px}
+h2{font-size:15px;font-weight:800;letter-spacing:.06em;color:var(--honey);margin:32px 0 10px}
+p{margin:0 0 14px}
+ul{margin:0 0 14px 20px}
+li{margin-bottom:7px}
+b{font-weight:800}
+a{color:var(--honey)}
+code{background:var(--wax);padding:1px 5px;border-radius:4px;font-size:13px}
+table{width:100%;border-collapse:collapse;margin:0 0 16px;font-size:14px}
+th,td{text-align:left;padding:10px 8px;border-bottom:1px solid var(--rule);vertical-align:top}
+th{color:var(--muted);font-weight:600;font-size:12px;letter-spacing:.08em;text-transform:uppercase}
+footer{margin-top:44px;padding-top:16px;border-top:2px solid var(--rule);
+  color:var(--muted);font-size:13px;line-height:1.9}
+[hidden]{display:none}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="mark">NEC<span>T</span>A</div>
+    <div class="langs">
+      <a id="l-en" class="on">EN</a>
+      <a id="l-tr">TR</a>
+    </div>
+  </header>
+
+  <section id="en">
+    <h1>Privacy Policy</h1>
+    <div class="updated">Last updated 24 August 2026</div>
+
+    <p>NECTA is a honeycomb puzzle game made by Erek Studio. This policy
+    describes what the app sends, where it goes and why. It is written against
+    the shipped code, not against an intention.</p>
+
+    <p>You do not create an account. There is no email address, no password and
+    no sign-in of any kind.</p>
+
+    <h2>What stays on your phone</h2>
+    <p>Your progress — which levels you have finished, your stars, your best
+    scores, your streak, your nectar, your settings, your Bee Album and whether
+    you have purchased Remove Ads — is stored locally on the device. Deleting
+    the app deletes all of it.</p>
+
+    <h2>The leaderboard</h2>
+    <p>The global and daily leaderboards are optional to look at, but scores are
+    submitted in the background as you play. Here is everything that is sent to
+    the leaderboard server we operate:</p>
+    <table>
+      <tr><th>Data</th><th>Why</th></tr>
+      <tr><td><b>A random player identifier</b> — a UUID generated on your device the first time the game runs</td><td>So the board can keep one entry per player. It is not your Apple ID, not your advertising identifier, and nothing your phone issued. Deleting the app destroys it.</td></tr>
+      <tr><td><b>The nickname you choose</b></td><td>It is what other players see on the board. Choose anything; it does not have to be your name.</td></tr>
+      <tr><td><b>Your score, stars, move count and completion time per level</b>, and your daily-puzzle score</td><td>The thing being ranked.</td></tr>
+      <tr><td><b>Your country</b></td><td>Derived by Cloudflare from the connection, so the board can show a country rank. It is the two-letter country only — never a city, an address or a coordinate.</td></tr>
+      <tr><td><b>Whether you own Remove Ads</b></td><td>To show the supporter badge next to your nickname.</td></tr>
+    </table>
+    <p>Your IP address reaches that server because every internet request carries
+    one. It is used to derive the country above and to rate-limit abuse. It is
+    not stored in the leaderboard database.</p>
+    <p>NECTA never asks for your location, your contacts, your photos, your
+    microphone or your camera.</p>
+
+    <h2>Advertising</h2>
+    <p>NECTA is free and shows ads from <b>Google AdMob</b>: full-screen ads
+    between levels, and optional rewarded ads you choose to watch. Google may
+    use a device advertising identifier to select and measure those ads.</p>
+    <ul>
+      <li>On iOS, the app asks for tracking permission through Apple's own
+      prompt. <b>If you decline, ads still work</b> — they are simply
+      non-personalised, and nothing about the game changes.</li>
+      <li>In the EEA, the UK and Switzerland, Google's consent form appears
+      before any ad is requested. You can reopen it at any time from
+      <b>Settings → Privacy options</b>.</li>
+      <li>Buying <b>Remove Ads</b> removes the between-level ads permanently.
+      Rewarded ads remain available because they are optional benefits you
+      choose.</li>
+    </ul>
+    <p>Google's own handling of that data is described in
+    <a href="https://policies.google.com/technologies/partner-sites">Google's
+    privacy policy</a>.</p>
+
+    <h2>Analytics and crash reports</h2>
+    <p>NECTA uses <b>Firebase Analytics</b> and <b>Firebase Crashlytics</b>
+    (Google). Analytics records gameplay events — a level started, a level won
+    with its stars and move count, an ad offered, a purchase completed — against
+    a random app-instance identifier, so we can see which levels are too hard
+    and which are too easy. Crashlytics records the technical details of a crash
+    so it can be fixed.</p>
+    <p>Neither carries your nickname, your leaderboard identifier, or anything
+    you typed.</p>
+
+    <h2>Purchases</h2>
+    <p><b>Remove Ads Forever</b> is a one-time purchase handled entirely by the
+    App Store or Google Play. We never see your card, your billing address or
+    your store account. The app only records that the purchase exists, and asks
+    the store to confirm it when you reinstall.</p>
+
+    <h2>Children</h2>
+    <p>NECTA is rated for ages 4 and up but is not published in a children's
+    category, and it is not directed to children under 13. Ad content is limited
+    to the <b>G</b> rating.</p>
+
+    <h2>Your choices</h2>
+    <ul>
+      <li><b>Change your nickname</b> at any time in Settings — the old one is
+      replaced on the board.</li>
+      <li><b>Reset advertising consent</b> from Settings → Privacy options.</li>
+      <li><b>Reset your advertising identifier</b> in your phone's own settings,
+      or switch it off entirely.</li>
+      <li><b>Delete everything</b> — see <a href="delete.html">Data deletion</a>.</li>
+    </ul>
+
+    <h2>Changes</h2>
+    <p>If this policy changes, the date at the top changes with it, and the
+    version in the app's Settings links here.</p>
+
+    <h2>Contact</h2>
+    <p><a href="mailto:mustafasalimerek@gmail.com">mustafasalimerek@gmail.com</a></p>
+  </section>
+
+  <section id="tr" hidden>
+    <h1>Gizlilik Politikası</h1>
+    <div class="updated">Son güncelleme 24 Ağustos 2026</div>
+
+    <p>NECTA, Erek Studio tarafından yapılan bir petek bulmaca oyunudur. Bu
+    metin uygulamanın ne gönderdiğini, nereye gittiğini ve nedenini anlatır.
+    Niyete göre değil, yayınlanan koda göre yazılmıştır.</p>
+
+    <p>Hesap açmazsınız. E-posta yok, şifre yok, hiçbir türden giriş yok.</p>
+
+    <h2>Telefonunuzda kalanlar</h2>
+    <p>İlerlemeniz — bitirdiğiniz bölümler, yıldızlarınız, en iyi skorlarınız,
+    seriniz, nektarınız, ayarlarınız, Arı Albümünüz ve Reklamları Kaldır satın
+    alımınız — cihazda yerel olarak saklanır. Uygulamayı silmek hepsini siler.</p>
+
+    <h2>Skor tablosu</h2>
+    <p>Küresel ve günlük tabloya bakmak isteğe bağlıdır, ancak skorlar siz
+    oynarken arka planda gönderilir. İşlettiğimiz skor sunucusuna gidenlerin
+    tamamı:</p>
+    <table>
+      <tr><th>Veri</th><th>Neden</th></tr>
+      <tr><td><b>Rastgele bir oyuncu kimliği</b> — oyun ilk çalıştığında cihazınızda üretilen bir UUID</td><td>Tablonun oyuncu başına tek kayıt tutabilmesi için. Apple kimliğiniz değildir, reklam kimliğiniz değildir, telefonunuzun verdiği hiçbir şey değildir. Uygulamayı silmek onu yok eder.</td></tr>
+      <tr><td><b>Seçtiğiniz takma ad</b></td><td>Tabloda diğer oyuncuların gördüğü şey. Ne isterseniz seçin; gerçek adınız olmak zorunda değil.</td></tr>
+      <tr><td><b>Bölüm başına skorunuz, yıldızınız, hamle sayınız ve süreniz</b> ile günlük bulmaca skorunuz</td><td>Sıralanan şeyin kendisi.</td></tr>
+      <tr><td><b>Ülkeniz</b></td><td>Cloudflare tarafından bağlantıdan türetilir; tablo ülke sıranızı gösterebilsin diye. Yalnızca iki harfli ülke kodudur — şehir, adres veya koordinat asla değil.</td></tr>
+      <tr><td><b>Reklamları Kaldır'a sahip olup olmadığınız</b></td><td>Takma adınızın yanında destekçi rozetini göstermek için.</td></tr>
+    </table>
+    <p>IP adresiniz o sunucuya ulaşır, çünkü her internet isteği bir IP taşır.
+    Yukarıdaki ülkeyi türetmek ve kötüye kullanımı sınırlamak için kullanılır.
+    Skor veritabanında saklanmaz.</p>
+    <p>NECTA konumunuzu, rehberinizi, fotoğraflarınızı, mikrofonunuzu veya
+    kameranızı asla istemez.</p>
+
+    <h2>Reklamlar</h2>
+    <p>NECTA ücretsizdir ve <b>Google AdMob</b> reklamları gösterir: bölümler
+    arasında tam ekran reklamlar ve izlemeyi kendiniz seçtiğiniz ödüllü
+    reklamlar. Google bu reklamları seçmek ve ölçmek için bir cihaz reklam
+    kimliği kullanabilir.</p>
+    <ul>
+      <li>iOS'ta uygulama, izleme iznini Apple'ın kendi ekranıyla sorar.
+      <b>Reddederseniz reklamlar yine çalışır</b> — sadece kişiselleştirilmemiş
+      olur ve oyunda hiçbir şey değişmez.</li>
+      <li>AEA, Birleşik Krallık ve İsviçre'de, herhangi bir reklam istenmeden
+      önce Google'ın onay formu görünür. <b>Ayarlar → Gizlilik seçenekleri</b>'nden
+      istediğiniz zaman yeniden açabilirsiniz.</li>
+      <li><b>Reklamları Kaldır</b> satın almak bölüm arası reklamları kalıcı
+      olarak kaldırır. Ödüllü reklamlar kalır, çünkü onlar sizin seçtiğiniz
+      isteğe bağlı avantajlardır.</li>
+    </ul>
+    <p>Google'ın bu veriyi nasıl işlediği
+    <a href="https://policies.google.com/technologies/partner-sites">Google'ın
+    gizlilik politikasında</a> anlatılır.</p>
+
+    <h2>Analitik ve çökme raporları</h2>
+    <p>NECTA <b>Firebase Analytics</b> ve <b>Firebase Crashlytics</b> (Google)
+    kullanır. Analytics, oyun olaylarını — bölüm başlatıldı, bölüm şu yıldız ve
+    hamle sayısıyla kazanıldı, reklam teklif edildi, satın alma tamamlandı —
+    rastgele bir uygulama-örneği kimliğine karşı kaydeder; böylece hangi
+    bölümün fazla zor, hangisinin fazla kolay olduğunu görebiliriz. Crashlytics
+    bir çökmenin teknik ayrıntılarını düzeltilebilsin diye kaydeder.</p>
+    <p>Hiçbiri takma adınızı, skor tablosu kimliğinizi veya yazdığınız hiçbir
+    şeyi taşımaz.</p>
+
+    <h2>Satın alma</h2>
+    <p><b>Reklamları Kaldır</b> tek seferlik bir satın almadır ve tamamen App
+    Store veya Google Play tarafından yürütülür. Kartınızı, fatura adresinizi
+    veya mağaza hesabınızı asla görmeyiz. Uygulama yalnızca satın almanın var
+    olduğunu kaydeder ve yeniden kurduğunuzda mağazadan doğrulamasını ister.</p>
+
+    <h2>Çocuklar</h2>
+    <p>NECTA 4 yaş ve üzeri için derecelendirilmiştir, ancak bir çocuk
+    kategorisinde yayınlanmaz ve 13 yaş altına yönelik değildir. Reklam içeriği
+    <b>G</b> derecesiyle sınırlıdır.</p>
+
+    <h2>Seçimleriniz</h2>
+    <ul>
+      <li><b>Takma adınızı</b> Ayarlar'dan istediğiniz zaman değiştirin —
+      eskisi tabloda yenisiyle değişir.</li>
+      <li><b>Reklam onayını sıfırlayın</b>: Ayarlar → Gizlilik seçenekleri.</li>
+      <li><b>Reklam kimliğinizi sıfırlayın</b> ya da tamamen kapatın —
+      telefonunuzun kendi ayarlarından.</li>
+      <li><b>Her şeyi silin</b> — <a href="delete.html">Veri silme</a>.</li>
+    </ul>
+
+    <h2>Değişiklikler</h2>
+    <p>Bu politika değişirse üstteki tarih de değişir; uygulamanın Ayarlar
+    ekranındaki bağlantı buraya gelir.</p>
+
+    <h2>İletişim</h2>
+    <p><a href="mailto:mustafasalimerek@gmail.com">mustafasalimerek@gmail.com</a></p>
+  </section>
+
+  <footer>
+    NECTA · Erek Studio ·
+    <a href="index.html">Home</a> ·
+    <a href="terms.html">Terms</a> ·
+    <a href="delete.html">Data deletion</a>
+  </footer>
+</div>
+
+<script>
+// Language toggle. Both sections ship in the page, so switching never fetches
+// anything — a legal page that needs the network to be readable is a legal page
+// that is sometimes unreadable.
+(function () {
+  var en = document.getElementById('en'), tr = document.getElementById('tr');
+  var aEn = document.getElementById('l-en'), aTr = document.getElementById('l-tr');
+  function show(lang) {
+    var isTr = lang === 'tr';
+    tr.hidden = !isTr; en.hidden = isTr;
+    aTr.className = isTr ? 'on' : ''; aEn.className = isTr ? '' : 'on';
+    document.documentElement.lang = isTr ? 'tr' : 'en';
+  }
+  aEn.onclick = function () { show('en'); };
+  aTr.onclick = function () { show('tr'); };
+  show((navigator.language || 'en').slice(0, 2) === 'tr' ? 'tr' : 'en');
+})();
+</script>

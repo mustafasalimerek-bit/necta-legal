@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>NECTA — Data Deletion</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--cream:#FFF6E3;--wax:#F6E9CC;--rule:#E3CE9F;--bark:#6B4A2B;--ink:#3B2A17;--muted:#8A7355;--honey:#E09612}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--cream);color:var(--ink);font-family:Nunito,system-ui,-apple-system,sans-serif;
+  line-height:1.8;font-size:15px;-webkit-text-size-adjust:100%}
+.wrap{max-width:680px;margin:0 auto;padding:max(24px,env(safe-area-inset-top)) 20px 60px}
+header{display:flex;align-items:baseline;justify-content:space-between;
+  padding-bottom:14px;border-bottom:2px solid var(--rule);margin-bottom:26px}
+.mark{font-weight:800;font-size:20px;letter-spacing:.22em;color:var(--bark)}
+.mark span{color:var(--honey)}
+.langs{font-size:12px;letter-spacing:.12em;font-weight:600}
+.langs a{color:var(--muted);text-decoration:none;margin-left:10px;cursor:pointer}
+.langs a.on{color:var(--honey)}
+h1{font-size:24px;font-weight:800;color:var(--bark);margin:0 0 6px}
+.updated{color:var(--muted);font-size:12px;letter-spacing:.06em;margin-bottom:28px}
+h2{font-size:15px;font-weight:800;letter-spacing:.06em;color:var(--honey);margin:32px 0 10px}
+p{margin:0 0 14px}
+ol,ul{margin:0 0 14px 20px}
+li{margin-bottom:7px}
+b{font-weight:800}
+a{color:var(--honey)}
+.box{background:var(--wax);border-left:4px solid var(--honey);padding:14px 16px;margin:0 0 18px;border-radius:0 8px 8px 0}
+footer{margin-top:44px;padding-top:16px;border-top:2px solid var(--rule);
+  color:var(--muted);font-size:13px;line-height:1.9}
+[hidden]{display:none}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="mark">NEC<span>T</span>A</div>
+    <div class="langs">
+      <a id="l-en" class="on">EN</a>
+      <a id="l-tr">TR</a>
+    </div>
+  </header>
+
+  <section id="en">
+    <h1>Data Deletion</h1>
+    <div class="updated">Last updated 24 August 2026</div>
+
+    <h2>Everything on your device</h2>
+    <div class="box">
+      <b>Delete the app.</b> That is the entire procedure. Progress, stars,
+      scores, streak, nectar, album, settings and the random player identifier
+      are all stored locally and go with it.
+    </div>
+    <p>Your <b>Remove Ads</b> purchase is the one exception, and deliberately so:
+    it lives with your App Store or Google Play account, not on the phone. If you
+    reinstall, <b>Restore Purchases</b> in Settings brings it back. Something you
+    paid for should survive a wipe.</p>
+
+    <h2>Your leaderboard entry</h2>
+    <p>If you have submitted a score, one row exists on our server: a random
+    player identifier, your nickname, your country code and your scores. To have
+    it deleted, email
+    <a href="mailto:mustafasalimerek@gmail.com?subject=NECTA%20data%20deletion">mustafasalimerek@gmail.com</a>
+    with the <b>nickname</b> you used.</p>
+    <p>We reply within 30 days and delete the row, its per-level bests and its
+    daily entries. There is no account to close, because there was never an
+    account.</p>
+    <p>Nothing in that row identifies you personally, so if you would rather not
+    write in: deleting the app already orphans it — the identifier that pointed
+    at it is gone from your phone and cannot be regenerated.</p>
+
+    <h2>Analytics and ads</h2>
+    <ul>
+      <li><b>Advertising:</b> reset or switch off your advertising identifier in
+      your phone's own settings. On iOS you can also revoke tracking permission
+      for NECTA at any time in the system settings.</li>
+      <li><b>Analytics:</b> Firebase's app-instance identifier is regenerated
+      when the app is deleted and reinstalled; the old one no longer points at
+      anything.</li>
+    </ul>
+
+    <h2>Contact</h2>
+    <p><a href="mailto:mustafasalimerek@gmail.com">mustafasalimerek@gmail.com</a></p>
+  </section>
+
+  <section id="tr" hidden>
+    <h1>Veri Silme</h1>
+    <div class="updated">Son güncelleme 24 Ağustos 2026</div>
+
+    <h2>Cihazınızdaki her şey</h2>
+    <div class="box">
+      <b>Uygulamayı silin.</b> İşlemin tamamı bu. İlerleme, yıldızlar, skorlar,
+      seri, nektar, albüm, ayarlar ve rastgele oyuncu kimliği yerel olarak
+      saklanır ve onunla birlikte gider.
+    </div>
+    <p><b>Reklamları Kaldır</b> satın alımınız tek istisnadır, bilerek: o
+    telefonda değil, App Store veya Google Play hesabınızda durur. Yeniden
+    kurarsanız Ayarlar'daki <b>Satın Alımları Geri Yükle</b> onu geri getirir.
+    Para verdiğiniz bir şey silme işleminden sağ çıkmalı.</p>
+
+    <h2>Skor tablosu kaydınız</h2>
+    <p>Skor gönderdiyseniz sunucumuzda tek bir satır vardır: rastgele bir
+    oyuncu kimliği, takma adınız, ülke kodunuz ve skorlarınız. Silinmesi için
+    kullandığınız <b>takma adla</b>
+    <a href="mailto:mustafasalimerek@gmail.com?subject=NECTA%20veri%20silme">mustafasalimerek@gmail.com</a>
+    adresine yazın.</p>
+    <p>30 gün içinde yanıtlar; satırı, bölüm bazlı en iyilerini ve günlük
+    kayıtlarını sileriz. Kapatılacak bir hesap yok, çünkü hiç hesap olmadı.</p>
+    <p>O satırdaki hiçbir şey sizi kişisel olarak tanımlamaz; yazmak
+    istemiyorsanız uygulamayı silmek onu zaten öksüz bırakır — ona işaret eden
+    kimlik telefonunuzdan gitmiştir ve yeniden üretilemez.</p>
+
+    <h2>Analitik ve reklamlar</h2>
+    <ul>
+      <li><b>Reklam:</b> telefonunuzun kendi ayarlarından reklam kimliğinizi
+      sıfırlayın veya kapatın. iOS'ta NECTA'nın izleme iznini sistem
+      ayarlarından istediğiniz an geri alabilirsiniz.</li>
+      <li><b>Analitik:</b> Firebase'in uygulama-örneği kimliği, uygulama silinip
+      yeniden kurulduğunda yeniden üretilir; eskisi artık hiçbir şeye işaret
+      etmez.</li>
+    </ul>
+
+    <h2>İletişim</h2>
+    <p><a href="mailto:mustafasalimerek@gmail.com">mustafasalimerek@gmail.com</a></p>
+  </section>
+
+  <footer>
+    NECTA · Erek Studio ·
+    <a href="index.html">Home</a> ·
+    <a href="privacy.html">Privacy</a> ·
+    <a href="terms.html">Terms</a>
+  </footer>
+</div>
+
+<script>
+(function () {
+  var en = document.getElementById('en'), tr = document.getElementById('tr');
+  var aEn = document.getElementById('l-en'), aTr = document.getElementById('l-tr');
+  function show(lang) {
+    var isTr = lang === 'tr';
+    tr.hidden = !isTr; en.hidden = isTr;
+    aTr.className = isTr ? 'on' : ''; aEn.className = isTr ? '' : 'on';
+    document.documentElement.lang = isTr ? 'tr' : 'en';
+  }
+  aEn.onclick = function () { show('en'); };
+  aTr.onclick = function () { show('tr'); };
+  show((navigator.language || 'en').slice(0, 2) === 'tr' ? 'tr' : 'en');
+})();
+</script>
